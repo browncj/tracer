@@ -1,0 +1,41 @@
+h1{
+  font-family: sans-serif;
+  font-size: 50px;
+  color: gray;
+  width: 200px;
+  text-align: center;
+  margin: 10px auto;
+}
+
+#board{
+  overflow: visible;
+  display: table;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+.block {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #eee;
+}
+
+.hover{
+  background-color: green;
+}
+
+.highlighted{
+  background-color: black;
+}
+
+#clear{
+  height: 40px;
+  width: 160px;
+  border: none;
+  background-color: #c4c4c4;
+  font-family: sans-serif;
+  font-weight: bold;
+
+  display: inline-block;
+  margin: 15px auto;
+}
